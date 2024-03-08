@@ -5,12 +5,18 @@ using ConsoleApp1.server;
 
 public class Program
 {
-    public static void Main(string[] args)
+  public static void Main(string[] args)
+  {
+    if (args.Length > 0 && args[0] == "server")
     {
-     
-        TcpServer tcpServer = new TcpServer(IPAddress.Any, 300);
-        tcpServer.Init();
+      TcpServer tcpServer = new TcpServer(IPAddress.Any, 300);
+      tcpServer.Init();
     }
+    else
+    {
+    }
+
+  }
 }
 
 
