@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{CADF61A1-6B19-4CF6-88B1-2A0CCDB22DCF}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Potachat", "Potachat.csproj", "{A0CDADF7-861D-40B1-8478-E157B84C9FE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CADF61A1-6B19-4CF6-88B1-2A0CCDB22DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CADF61A1-6B19-4CF6-88B1-2A0CCDB22DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CADF61A1-6B19-4CF6-88B1-2A0CCDB22DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CADF61A1-6B19-4CF6-88B1-2A0CCDB22DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CDADF7-861D-40B1-8478-E157B84C9FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CDADF7-861D-40B1-8478-E157B84C9FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CDADF7-861D-40B1-8478-E157B84C9FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CDADF7-861D-40B1-8478-E157B84C9FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21833364-EF71-4714-80FE-B62C66AD48CB}
 	EndGlobalSection
 EndGlobal

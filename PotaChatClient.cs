@@ -2,13 +2,13 @@ using System;
 using System.IO;
 using System.Net.Sockets;
 
-public class PotaChatClient
+public class Client
 {
   private TcpClient client;
   private StreamReader reader;
   private StreamWriter writer;
 
-  public PotaChatClient(string serverAddress)
+  public Client(string serverAddress)
   {
     client = new TcpClient(serverAddress, 300);
     reader = new StreamReader(client.GetStream());
